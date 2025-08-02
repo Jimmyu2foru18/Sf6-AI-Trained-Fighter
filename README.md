@@ -22,25 +22,39 @@ and findings may serve as a valuable learning reference for others exploring AI 
 
 ## 🧱 Project Structure
 
-### 1. `data/`
-- Intended to store screenshots, labeled training data, and processed input/output files.
-- Game frames and state-action pairs would be captured here.
+Sf6-AI-Trained-Fighter/
+├── community_projects/            # Placeholder for external contributions or forks
+├── opt/                           # Optional configurations or utility scripts (currently undefined)
+├── sf6_configs/                   # Game and training configuration files (e.g., keybinds, training settings)
+├── sf6_env/                       # Environment setup and game interaction scripts
+├── sf6_logs/                      # Logs generated during training, testing, or diagnostics
+├── train/                         # Training routines, model versions, and AI logic scripts
 
-### 2. `scripts/`
-- Scripts for screen capture, input simulation, and preprocessing.
-- Includes early versions of training and evaluation scripts.
-  
-### 3. `models/`
-- Placeholder for PyTorch or TensorFlow-based neural network models.
-- The plan was to use CNNs to analyze screen input and output control decisions.
+├── README.md                      # Main project overview and instructions
+├── SF6_README.md                  # Supplemental README (could contain legacy or extended notes)
 
-### 4. `config/`
-- Config files (hyperparameters, key bindings, etc.)
-- Environment settings for reproducibility.
+# Notebooks
+├── StreetFighter-NoDelta.ipynb    # Notebook experiment (possibly without delta state comparisons)
+├── StreetFighter-Test.ipynb       # Notebook for testing model interactions
+├── StreetFighter-Tutorial.ipynb   # Tutorial or walkthrough of the AI training process
 
-### 5. `main.py`
-- Central entry point for training or running the AI.
-- Handles data loading, training loop, and possibly real-time inference.
+# Scripts & Utilities
+├── analyze_sf6_issue.py           # Debugging tool for analyzing issues in training or input parsing
+├── calabrate.json                 # JSON file likely used for screen or input calibration
+├── def calculate_reward(self, c.py# Misnamed/malformed script (recommend renaming)
+├── fix_sf6_environment.py         # Script to patch/fix environment-related bugs
+├── import cv2.py                  # Misnamed script — likely meant to test OpenCV (recommend renaming)
+├── requirements.txt               # Python dependencies required for the project
+├── setup_sf6_project.py           # Project setup and initialization helper
+├── sf6_diagnostic.py              # Diagnostic script to test system/game compatibility or errors
+├── sf6_implementation_plan.md     # Written plan describing intended structure and methodology
+
+# Training Scripts
+├── test_fixed_sf6.py              # Test script for improved/modified training pipeline
+├── train_fixed_sf6.py             # Updated training script with bug fixes or improvements
+├── train_sf6.py                   # Original/standard training script
+├── train_sf6_enhanced.py          # Enhanced training script with experimental changes
+
 
 ---
 
@@ -59,9 +73,6 @@ The AI design was heavily inspired by:
 **Tools & Libraries Considered:**
 - Python
 - PyTorch/TensorFlow
-- OpenCV
-- pyautogui / vgamepad / DirectInput libraries
-
 ---
 
 ## 🚫 Known Limitations & Issues

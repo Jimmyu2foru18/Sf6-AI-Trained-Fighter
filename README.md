@@ -102,15 +102,13 @@ Despite these blockers, the structure is in place and could be continued or fork
 
 While this repo is non-functional, you can still explore:
 1. The data capture scripts to understand the collection method.
-2. The neural network architecture drafts in `models/`.
-3. The overall pipeline concept for AI training in a gaming context.
+2. The overall pipeline concept for AI training in a gaming context.
 
 ---
 
 ## 🙏 Credits & Inspiration
 
-- **Original SF2 AI Project** (inspiration for this repo): [Insert link if available]
-- 'https://github.com/nicknochnack/StreetFighterRL'
+- **Original SF2 AI Project** (inspiration for this repo): [[Here](https://github.com/nicknochnack/StreetFighterRL)]
 
 ---
 

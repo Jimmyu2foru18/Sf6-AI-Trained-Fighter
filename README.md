@@ -21,40 +21,40 @@ and findings may serve as a valuable learning reference for others exploring AI 
 ---
 
 ## 🧱 Project Structure
-
+```bash
 Sf6-AI-Trained-Fighter/
-├── community_projects/            # Placeholder for external contributions or forks
-├── opt/                           # Optional configurations or utility scripts (currently undefined)
-├── sf6_configs/                   # Game and training configuration files (e.g., keybinds, training settings)
-├── sf6_env/                       # Environment setup and game interaction scripts
-├── sf6_logs/                      # Logs generated during training, testing, or diagnostics
-├── train/                         # Training routines, model versions, and AI logic scripts
+      ├── community_projects/            # Placeholder for external contributions or forks
+      ├── opt/                           # Optional configurations or utility scripts (currently undefined)
+      ├── sf6_configs/                   # Game and training configuration files (e.g., keybinds, training settings)
+      ├── sf6_env/                       # Environment setup and game interaction scripts
+      ├── sf6_logs/                      # Logs generated during training, testing, or diagnostics
+      ├── train/                         # Training routines, model versions, and AI logic scripts
 
-├── README.md                      # Main project overview and instructions
-├── SF6_README.md                  # Supplemental README (could contain legacy or extended notes)
+      ├── README.md                      # Main project overview and instructions
+      ├── SF6_README.md                  # Supplemental README (could contain legacy or extended notes)
 
-# Notebooks
-├── StreetFighter-NoDelta.ipynb    # Notebook experiment (possibly without delta state comparisons)
-├── StreetFighter-Test.ipynb       # Notebook for testing model interactions
-├── StreetFighter-Tutorial.ipynb   # Tutorial or walkthrough of the AI training process
+          # Notebooks
+            ├── StreetFighter-NoDelta.ipynb    # Notebook experiment (possibly without delta state comparisons)
+            ├── StreetFighter-Test.ipynb       # Notebook for testing model interactions
+            ├── StreetFighter-Tutorial.ipynb   # Tutorial or walkthrough of the AI training process
 
-# Scripts & Utilities
-├── analyze_sf6_issue.py           # Debugging tool for analyzing issues in training or input parsing
-├── calabrate.json                 # JSON file likely used for screen or input calibration
-├── def calculate_reward(self, c.py# Misnamed/malformed script (recommend renaming)
-├── fix_sf6_environment.py         # Script to patch/fix environment-related bugs
-├── import cv2.py                  # Misnamed script — likely meant to test OpenCV (recommend renaming)
-├── requirements.txt               # Python dependencies required for the project
-├── setup_sf6_project.py           # Project setup and initialization helper
-├── sf6_diagnostic.py              # Diagnostic script to test system/game compatibility or errors
-├── sf6_implementation_plan.md     # Written plan describing intended structure and methodology
+                  # Scripts & Utilities
+                    ├── analyze_sf6_issue.py               # Debugging tool for analyzing issues in training or input parsing
+                    ├── calabrate.json                     # JSON file likely used for screen or input calibration
+                    ├── def calculate_reward(self, c.py    # Misnamed/malformed script (recommend renaming)
+                    ├── fix_sf6_environment.py             # Script to patch/fix environment-related bugs
+                    ├── import cv2.py                      # Misnamed script — likely meant to test OpenCV (recommend renaming)
+                    ├── requirements.txt                   # Python dependencies required for the project
+                    ├── setup_sf6_project.py               # Project setup and initialization helper
+                    ├── sf6_diagnostic.py                  # Diagnostic script to test system/game compatibility or errors
+                    ├── sf6_implementation_plan.md         # Written plan describing intended structure and methodology
 
-# Training Scripts
-├── test_fixed_sf6.py              # Test script for improved/modified training pipeline
-├── train_fixed_sf6.py             # Updated training script with bug fixes or improvements
-├── train_sf6.py                   # Original/standard training script
-├── train_sf6_enhanced.py          # Enhanced training script with experimental changes
-
+      # Training Scripts
+        ├── test_fixed_sf6.py              # Test script for improved/modified training pipeline
+        ├── train_fixed_sf6.py             # Updated training script with bug fixes or improvements
+        ├── train_sf6.py                   # Original/standard training script
+        ├── train_sf6_enhanced.py          # Enhanced training script with experimental changes
+```
 
 ---
 

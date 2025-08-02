@@ -1,0 +1,15 @@
+2025-07-16 02:05:52,618 - __main__ - INFO - Starting SF6 model training...
+2025-07-16 02:05:52,619 - __main__ - INFO - Using hyperparameters: {'n_steps': 2560, 'gamma': 0.99, 'learning_rate': 0.00025, 'clip_range': 0.2, 'gae_lambda': 0.95}
+2025-07-16 02:05:52,619 - __main__ - INFO - Creating training environment for character: ryu
+2025-07-16 02:05:54,131 - __main__ - INFO - Make sure Street Fighter 6 is running and in training mode!
+2025-07-16 02:05:54,131 - __main__ - INFO - Recommended setup:
+2025-07-16 02:05:54,131 - __main__ - INFO - 1. Start SF6 in windowed mode
+2025-07-16 02:05:54,131 - __main__ - INFO - 2. Go to Training Mode
+2025-07-16 02:05:54,131 - __main__ - INFO - 3. Set up your preferred training scenario
+2025-07-16 02:05:54,132 - __main__ - INFO - 4. Position the window for optimal screen capture
+2025-07-16 02:05:54,132 - street_fighter_6_enhanced - INFO - Closing SF6 environment
+2025-07-16 02:05:55,339 - street_fighter_6_enhanced - INFO - Emergency stop executed - all keys released
+2025-07-16 02:05:55,339 - street_fighter_6_enhanced - INFO - SF6 environment closed successfully
+2025-07-16 02:05:55,340 - street_fighter_6_enhanced - INFO - Closing SF6 environment
+2025-07-16 02:05:56,546 - street_fighter_6_enhanced - INFO - Emergency stop executed - all keys released
+2025-07-16 02:05:56,546 - street_fighter_6_enhanced - INFO - SF6 environment closed successfully
